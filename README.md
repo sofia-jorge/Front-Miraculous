@@ -13,5 +13,3 @@ Matheus Henrique:
 Fazer o código de JS e mexer com os frameworkks. Explicar sua parte do trabaljo.
 
 (depois eu termino de escrever aqui)
-
-oiii, maria aqiii
