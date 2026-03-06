@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f3d6e4;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAV MIRACULOUS */
+
+.nav-miraculous{
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    background: #E63946;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+/* logo */
+
+.logo-nav{
+    font-family: "Lobster", cursive;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+/* lista */
+
+.nav-miraculous ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    padding: 0;
+}
+
+/* links */
+
+.nav-miraculous a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* efeito hover */
+
+.nav-miraculous a:hover{
+    color: #FFD6D9;
+}
+
+/* efeito pintinha */
+
+.nav-miraculous a::after{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.nav-miraculous a:hover::after{
+    opacity: 1;
+}
+
+/*PARTE DAS DIVS DE CADA MATERIA*/
+.front, .html, .css {
+    scroll-margin-top: 100px;
+    background-color: #F4F4F4;
+    border: 3px solid #E63946; /* Borda vermelha Ladybug */
+    border-radius: 15px; /* Pontas arredondadas */
+    padding: 30px; /* Espaço interno */
+    margin: 40px 0; /* Quebra de linha entre cards */
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.2); /* Sombra suave */
+    max-width: 800px; /* Largura máxima */
+    width: 90%; /* Largura responsiva */
+    transition: all 0.3s ease;
+}
+
+.conteudo-front {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; /* responsivo */
+}
+
+.conceito {
+    flex: 1;
+    text-align: center;
+}
+
+.adicional {
+    flex: 1;
+}
+
+span img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25%;
+    box-shadow: 0 0 10px rgba(3, 0, 0, 0.5);
+}
+
+h1 {
+    color: #FFFFFF; /* Texto branco */
+    background-color: #E63946; /* Fundo vermelho Ladybug */
+    padding: 20px 40px; /* Espaço interno maior */
+    margin: -30px -30px 30px -30px; /* Ocupa toda a largura do card */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 15px 15px 0 0; /* Bordas arredondadas apenas no topo */
+    display: block; /* Ocupa toda a linha */
+    box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3); /* Sombra suave */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 3px; /* Espaçamento entre letras */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 2rem; /* Tamanho maior */
+    font-family: "Lobster", cursive;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* ARRUMANDO O BOTÃO PRA FICAR DE LADYBUG */
+.botao-ladybug {
+    position: relative;
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #E63946;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(230,57,70,0.4);
+}
+
+/* pintinhas do ioiô */
+.botao-ladybug::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    background: black;
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+
+    box-shadow:
+        30px 0 black,
+        60px 0 black,
+        15px 18px black,
+        45px 18px black;
+}
+
+/* Brilhinho */
+.botao-ladybug:hover {
+    transform: scale(1.08);
+    background-color: #ff4d5a;
+    box-shadow: 0 0 15px #E63946, 0 0 30px #E63946;
+}
+
+/* FOOTER, PARTE DOS INTEGRANTES */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #FFFFFF; 
+    font-family: Arial, sans-serif;
+}
+
+footer h1 {
+    color: #FFFFFF; /* Texto branco */
+    background-color: #E63946; /* Fundo vermelho Ladybug */
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(230, 57, 70, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* O container que tá as fotos */
+.container-integrantes {
+    display: flex; /* Coloca um do lado do outro */
+    justify-content: center; /* Centraliza no meio */
+    align-items: center;  /* pra colocar no meio */
+    gap: 40px; /* Espaço entre as fotos */
+    flex-wrap: wrap; /* Se a tela for pequena, eles descem para baixo */
+}
+
+/* O cartão individual */
+.card-integrante {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo na imagem */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Garante que a foto não estique */
+    border-radius: 50%; /* Deixa a foto redonda */
+    border: 4px solid #E63946; /* Borda vermelha */
+    box-shadow: 0 0 10px rgba(230, 57, 70, 0.5); /* Brilho neon vermelho */
+    transition: all 0.3s ease; /* Animação pequena */
+}
+
+/* Efeito neon ao passar o mouse na foto */
+.foto-perfil:hover {
+    transform: scale(1.1); /* Aumenta um pouquinho */
+    border-color: #FF69B4; /* Muda a cor da borda */
+    box-shadow: 0 0 20px #FF69B4, 0 0 40px #E63946; /* Brilho mais forte */
+}
+
+/* Cores neon diferentes para cada integrante */
+.foto-perfil:nth-child(1):hover {
+    border-color: #D62828; 
+    box-shadow: 0 0 20px #D62828, 0 0 40px #E63946;
+}
+
+.foto-perfil:nth-child(2):hover {
+    border-color: #8B0000; 
+    box-shadow: 0 0 20px #8B0000, 0 0 40px #E63946;
+}
+
+.foto-perfil:nth-child(3):hover {
+    border-color: #FF69B4; 
+    box-shadow: 0 0 20px #FF69B4, 0 0 40px #E63946;
+}
+
+
+
+
+
