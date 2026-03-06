@@ -1,175 +1,355 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="estudos, front-end, miraculous">
-    <link rel="icon" type="image/png" href="img/perfeito.ico">
-    <title>HTML + CSS + JS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="estudos, front-end, miraculous">
+
+<link rel="icon" type="image/png" href="img/misturado.ico">
+<link rel="stylesheet" href="css_miraculous2.css">
+
+<title>HTML + CSS</title>
 </head>
+
 <body>
-    <div class="container">
 
-        <div class="front">
-            <h1>FRONT-END</h1>
-            <h2>Conceito</h2>
-            <p>Front-End é a parte visual e interativa de um site ou aplicação.</p>
-            <p>É tudo aquilo que o usuário vê e com o que interage na tela.</p>
-            <h3>Envolve:</h3>
-            <p>- Layout</p>
-            <p>- Cores</p>
-            <p>- Botões</p>
-            <p>- Animações</p>
-            <p>- Responsividade</p>
-            <p>- Experiência do usuário (UX)</p>
-            <h3>Trabalha diretamente no navegador.</h3>
+<!-- NAVBAR -->
+<nav class="nav-miraculous">
+
+<div class="logo-nav">
+🐞 Trabalho sobre:
+</div>
+
+<ul>
+<li><a href="#front">Front-End</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#integrantes">Integrantes</a></li>
+<li><a href="#js">JavaScript</a></li>
+<li><a href="#frameworks">Frameworks</a></li>
+<li><a href="#react">React</a></li>
+<li><a href="#angular">Angular</a></li>
+<li><a href="#vue">Vue</a></li>
+<li><a href="#integrantes">Integrantes</a></li>
+
+<label class="botao-tema">
+<input type="checkbox" id="modoNoturno">
+<div class="icone ladybug">🐞</div>
+<div class="icone chat">🐾</div>
+</label>
+
+</ul>
+
+</nav>
+
+
+<div class="container">
+
+<!-- FRONT END -->
+<div class="front" id="front">
+
+<h1>FRONT-END</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+<h2>Conceito</h2>
+<p>Front-End é a parte visual e interativa de um site ou aplicação.</p>
+<p>É tudo aquilo que o usuário vê e com o que interage na tela.</p>
+
+<span>
+<img src="img/logofront.jpg" alt="Logo Front-end">
+</span>
+</div>
+
+<div class="adicional">
+<h2>Envolve:</h2>
+<p>- Layout</p>
+<p>- Cores</p>
+<p>- Botões</p>
+<p>- Animações</p>
+<p>- Responsividade</p>
+<p>- Experiência do usuário (UX)</p>
+
+<h3>Trabalha diretamente no navegador.</h3>
+</div>
+
+</div>
+</div>
+
+
+<!-- HTML -->
+<div class="html" id="html">
+
+<h1>HTML</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+
+<h2>O que é?</h2>
+<p>HTML significa HyperText Markup Language.</p>
+<p>É a linguagem responsável por estruturar o conteúdo da página.</p>
+
+<span>
+<img src="img/logohtml.jpg" alt="Logo HTML">
+</span>
+
+<h3>Curiosidade:</h3>
+<p>A primeira página criada na história da internet ainda pode ser acessada atualmente.</p>
+
+</div>
+
+
+<div class="adicional">
+
+<h2>Ela define:</h2>
+<p>- Títulos</p>
+<p>- Parágrafos</p>
+<p>- Imagens</p>
+<p>- Links</p>
+<p>- Botões</p>
+<p>- Listas</p>
+
+<h3>É a "estrutura" do site.</h3>
+
+<br><br>
+
+<a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" class="botao-ladybug">
+Veja aqui
+</a>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- CSS -->
+<div class="css" id="css">
+
+<h1>CSS</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+
+<h2>O que é?</h2>
+<p>CSS significa Cascading Style Sheets.</p>
+<p>É responsável pela aparência visual do site.</p>
+
+<span>
+<img src="img/logocss.jpg" alt="Logo CSS">
+</span>
+
+<h3>Curiosidade:</h3>
+<p>O CSS permite criar animações e efeitos visuais.</p>
+
+</div>
+
+
+<div class="adicional">
+
+<h2>Controla:</h2>
+<p>- Cores</p>
+<p>- Fontes</p>
+<p>- Espaçamentos</p>
+<p>- Tamanhos</p>
+<p>- Animações</p>
+<p>- Layout</p>
+
+<h3>É como se fosse a "roupa" do site.</h3>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- JAVASCRIPT -->
+<div class="js" id="js">
+
+<h1>JavaScript</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+
+<h2>O que é?</h2>
+<p>JavaScript é a linguagem que dá interatividade ao site.</p>
+
+<span>
+<img src="img/logojs.jpg" alt="Logo JavaScript">
+</span>
+
+<h3>Curiosidade:</h3>
+<p>O JavaScript foi criado em apenas 10 dias.</p>
+
+</div>
+
+
+<div class="adicional">
+
+<h2>Permite:</h2>
+<p>- Validação de formulários</p>
+<p>- Botões interativos</p>
+<p>- Modais</p>
+<p>- Conteúdo dinâmico</p>
+<p>- Jogos no navegador</p>
+
+<h3>É o cérebro da página.</h3>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- FRAMEWORKS -->
+<div class="frameworks" id="frameworks">
+
+<h1>Frameworks Front-End</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+<h2>O que são?</h2>
+<p>Ferramentas que aceleram o desenvolvimento.</p>
+
+<span>
+<img src="img/logofront.jpg" alt="Frameworks">
+</span>
+</div>
+
+<div class="adicional">
+<h2>Eles oferecem:</h2>
+<p>- Estrutura pronta</p>
+<p>- Componentes reutilizáveis</p>
+<p>- Organização do código</p>
+<p>- Melhor desempenho</p>
+</div>
+
+</div>
+</div>
+
+
+<!-- REACT -->
+<div class="react" id="react">
+
+<h1>React</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+<h2>O que é?</h2>
+<p>Biblioteca JavaScript para interfaces modernas.</p>
+
+<span>
+<img src="img/logoreact.jpg" alt="React">
+</span>
+</div>
+
+<div class="adicional">
+<h2>Características:</h2>
+<p>- Componentes</p>
+<p>- Virtual DOM</p>
+<p>- Muito usado no mercado</p>
+
+<h3>Criado por:</h3>
+<p>Meta</p>
+</div>
+
+</div>
+</div>
+
+
+<!-- ANGULAR -->
+<div class="angular" id="angular">
+
+<h1>Angular</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+<h2>O que é?</h2>
+<p>Framework completo para aplicações web.</p>
+
+<span>
+<img src="img/logoangular.jpg" alt="Angular">
+</span>
+</div>
+
+<div class="adicional">
+<h2>Características:</h2>
+<p>- Usa TypeScript</p>
+<p>- Estrutura robusta</p>
+<p>- Muito usado em sistemas grandes</p>
+
+<h3>Criado por:</h3>
+<p>Google</p>
+</div>
+
+</div>
+</div>
+
+
+<!-- VUE -->
+<div class="vue" id="vue">
+
+<h1>Vue</h1>
+
+<div class="conteudo-front">
+
+<div class="conceito">
+<h2>O que é?</h2>
+<p>Framework progressivo fácil de aprender.</p>
+
+<span>
+<img src="img/logovue.jpg" alt="Vue">
+</span>
+</div>
+
+<div class="adicional">
+<h2>Características:</h2>
+<p>- Leve</p>
+<p>- Fácil integração</p>
+<p>- Sintaxe simples</p>
+
+<h3>Criado por:</h3>
+<p>Evan You</p>
+</div>
+
+</div>
+</div>
+
+<footer id="integrantes">
+    <h1><strong><i>Integrantes:</i></h1></strong> </h1>
+    
+    <div class="container-integrantes">
+        
+        <!-- Maria Luiza -->
+        <div class="card-integrante">
+            <img src="img/marinette.jpeg" class="foto-perfil" alt="Marinette como ilustração">
+            <h3>Maria Luiza</h3>
         </div>
 
-    <br>
-
-        <div class="html">
-            <h1>HTML</h1>
-            <h2>O que é?</h2>
-            <p>HTML significa HyperText Markup Language.</p>
-            <p>É a linguagem responsável por estruturar o conteúdo da página.</p>
-            <h3>Ela define:</h3>
-            <p>- Títulos</p>
-            <p>- Parágrafos</p>
-            <p>- Imagens</p>
-            <p>- Links</p>
-            <p>- Botões</p>
-            <p>- Listas</p>
-            <h3>É a “estrutura” do site (como o esqueleto do corpo).</h3>
-            <h2>Curiosidade:</h2>
-            <p>A primeira página criada na história da internet ainda pode ser acessada atualmente.</p>
-            <button><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">Veja aqui</a></button>
+        <!-- Matheus Henrique -->
+        <div class="card-integrante">
+            <img src="img/max.jpg" class="foto-perfil" alt="Nino como ilustração">
+            <h3>Matheus Henrique</h3>
         </div>
 
-    <br>
-
-        <div class="css">
-            <h1>CSS</h1>
-            <h2>O que é?</h2>
-            <p>CSS significa Cascading Style Sheets.</p>
-            <p>É responsável pela aparência visual do site.</p>
-            <h3>Controla:</h3>
-            <p>- Cores</p>
-            <p>- Fontes</p>
-            <p>- Espaçamentos</p>
-            <p>- Tamanhos</p>
-            <p>- Animações</p>
-            <p>- Layout</p>
-            <h3>É como se fosse a “roupa” e o design do site.</h3>
-            <h2>Curiosidade:</h2>
-            <p>O CSS permite criar animações e até efeitos 3D sem usar JavaScript.</p>
+        <!-- Sofia Franco -->
+        <div class="card-integrante">
+            <img src="img/alya.jpeg" class="foto-perfil" alt="Alya como ilustração">
+            <h3>Sofia Franco</h3>
         </div>
 
-    <br>
-
-        <div class="js">
-            <h1>JavaScript</h1>
-            <h2>O que é?</h2>
-            <p>JavaScript é a linguagem que dá interatividade e lógica ao site.</p>
-            <h3>Permite:</h3>
-            <p>- Validação de formulários</p>
-            <p>- Botões interativos</p>
-            <p>- Modais</p>
-            <p>- Atualização dinâmica de conteúdo</p>
-            <p>- Jogos no navegador</p>
-            <h3>É o “cérebro” da página.</h3>
-            <h2>Curiosidade:</h2>
-            <p>O JavaScript foi criado em apenas 10 dias por Brendan Eich em 1995.</p>
-        </div>
-
-    <br>
-
-        <div class="frameworks">
-            <h1>Frameworks Front-End</h1>
-            <p>Frameworks são ferramentas que facilitam e aceleram o desenvolvimento.</p>
-            <h3>Eles oferecem:</h3>
-            <p>- Estrutura pronta</p>
-            <p>- Componentes reutilizáveis</p>
-            <p>- Organização do código</p>
-            <p>- Melhor desempenho</p>
-        </div>
-
-    <br>
-
-        <div class="React">
-            <h1>React</h1>
-            <p>React é uma biblioteca JavaScript para criar interfaces modernas e dinâmicas.</p>
-            <h3>Características:</h3>
-            <p>- Baseado em componentes</p>
-            <p>- Virtual DOM</p>
-            <p>- Muito usado no mercado</p>
-            <h3>Criado por: </h3>
-            <p>Meta (antigo Facebook)</p>
-        </div>
-
-    <br>
-
-        <div class="Angular">
-            <h1>Angular</h1>
-            <p>Angular é um framework completo para desenvolvimento de aplicações web.</p>
-            <h3>Características:</h3>
-            <p>- Usa TypeScript</p>
-            <p>- Estrutura robusta</p>
-            <p>- Muito usado em sistemas grandes</p>
-            <h3>Criado por: </h3>
-            <p>Google</p>
-        </div>
-
-    <br>
-
-        <div class="Vue">
-            <h1>Vue</h1>
-            <p>Vue.js é um framework progressivo e mais simples de aprender.</p>
-            <h3>Características:</h3>
-            <p>- Leve</p>
-            <p>- Fácil integração</p>
-            <p>- Sintaxe simples</p>
-            <h3>Criado por: </h3>
-            <p>Evan You</p>
-        </div>
-
-    <br>
-
-        <div class="perguntas">
-            <h1>Perguntas:</h1>
-            <h4>1- Quando dizemos que um site é responsivo, isso significa que:</h4>
-            <p>A) Ele responde rapidamente ao clique do usuário.</p>
-            <p>B) Ele se adapta a diferentes tamanhos de tela mantendo usabilidade e organização.</p>
-            <p>C) Ele funciona apenas em dispositivos móveis.</p>
-            <p>D) Ele utiliza apenas JavaScript moderno.</p>
-
-            <br>
-            <h1>2- Em um projeto Front-End, a separação entre HTML, CSS e JavaScript é importante porque:</h1>
-            <p>A) Permite dividir responsabilidades entre estrutura, estilo e comportamento.</p>
-            <p>B) Impede que o navegador carregue arquivos muito grandes.</p>
-            <p>C) Faz com que apenas o JavaScript controle toda a aplicação.</p>
-            <p>D) Elimina a necessidade de frameworks.</p>
-
-            <br>
-
-            <h1>3- Uma das principais vantagens de usar frameworks como React, Angular ou Vue é que eles:</h1>
-            <p>A) Eliminam completamente a necessidade de HTML e CSS.</p>
-            <p>B) Tornam obrigatório o uso de banco de dados.</p>
-            <p>C) Oferecem organização e reutilização de componentes, facilitando manutenção do projeto.</p>
-            <p>D) Funcionam apenas em aplicações muito pequenas.</p>
-
-        </div>
     </div>
+</footer>
 
-    <br>
 
-    <footer>
-        <h1>Integrantes:</h1>
-        <h3>Maria Luiza</h3>
-        <img src="img/marinette.jpeg" heigth="150px" width="150px" alt="Marinette como ilustração">
-        <h3>Matheus Henrique</h3>
-        <img src="img/max.jpg" heigth="150px" width="150px" alt="Nino como ilustração">
-        <h3>Sofia Franco</h3>
-        <img src="img/alya.jpeg" heigth="150px" width="150px" alt="Alya como ilustração">
-    </footer>
+<script src="js_miraculous.js"></script>
+
 </body>
 </html>
